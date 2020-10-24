@@ -99,14 +99,21 @@ def parallelogram(x, y, side1, side2, angle, color):
 
 triangle(-319, 200, 50, 0,'#F72A49')
 square(-266, 264, 25, 0, '#FF7C00')
-parallelogram(-255, 267, 36, 25, 40, '#8ECC23')
+parallelogram(-255, 267, 35, 25, 40, '#8ECC23')
 triangle(-270, 197, 50, 0, '#FEDD14')
 triangle(-318, 145, 40, 90, '#4FBAE8')
-triangle(-275, 175, 30, 270, '#A250E2')
-triangle(-300, 210, 30, 90, '#EF66E8')
+triangle(-275, 171, 25, 270, '#A250E2')
+triangle(-266, 180, 25, 225, '#EF66E8')
 
 #fish
 
+triangle(-101, 195, 30, 360, '#A250E2')
+triangle(-38, 225, 30, 90, '#EF66E8')
+parallelogram(-68, 228, 35, 25, 190, '#8ECC23')
+square(-20, 207, 25, 50, '#FF7C00')
 
-turtle.hideturtle()
+#square
+
+triangle(0, 0, 200, 135, '#F72A49')
+
 turtle.mainloop()
