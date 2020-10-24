@@ -49,9 +49,9 @@ def triangle(x, y, leg, angle, color):
     :return: None
     '''
 
-leg = 200
 x = -100
 y = -100
+leg = 200
 hyp = ((leg ** 2 + leg ** 2) ** 0.5)
 color = ('#FEDD14')
 
