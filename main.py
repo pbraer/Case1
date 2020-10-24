@@ -32,13 +32,10 @@ def square(x, y, side, angle, color):
     turtle.forward(side)
     turtle.left(angle)
     turtle.end_fill()
-    turtle.done()
 
-import turtle as t
 
 def triangle(x, y, leg, angle, color):
-    '''
-
+    """
     Function, drawing triangle.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
@@ -47,26 +44,69 @@ def triangle(x, y, leg, angle, color):
     :param angle: the angle of rotation of a triangle
     :param color: the color of a triangle
     :return: None
-    '''
+    """
 
-x = -100
-y = -100
-leg = 200
-hyp = ((leg ** 2 + leg ** 2) ** 0.5)
-color = ('#FEDD14')
+    hyp = ((leg ** 2 + leg ** 2) ** 0.5)
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.begin_fill()
+    turtle.right(angle)
+    turtle.pencolor(color)
+    turtle.pendown()
+    turtle.forward(leg)
+    turtle.left(90)
+    turtle.forward(leg)
+    turtle.left(135)
+    turtle.forward(hyp)
+    turtle.left(45)
+    turtle.right(angle)
+    turtle.fillcolor(color)
+    turtle.end_fill()
 
-t.penup()
-t.goto(x, y)
-t.begin_fill()
-t.pencolor(color)
-t.pendown()
-t.forward(leg)
-t.left(90)
-t.forward(leg)
-t.left(135)
-t.forward(hyp)
-t.fillcolor(color)
-t.end_fill()
-t.hideturtle()
-t.mainloop()
 
+
+def parallelogram(x, y, side1, side2, angle, color):
+    """
+    Function, drawing square.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param side1: the longest side of a parallelogram
+    :param side2: the shortest side of a parallelogram
+    :param angle: the angle of rotation of the parallelogram
+    :param color: the color of the parallelogram
+    :return: None
+    """
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.pencolor(color)
+    turtle.fillcolor(color)
+    turtle.down()
+    turtle.begin_fill()
+    turtle.left(90)
+    turtle.right(angle)
+    turtle.forward(side1)
+    turtle.left(40)
+    turtle.forward(side2)
+    turtle.left(140)
+    turtle.forward(side1)
+    turtle.left(40)
+    turtle.forward(side2)
+    turtle.left(140)
+    turtle.left(angle)
+    turtle.end_fill()
+
+#rabbit
+
+triangle(-319, 200, 50, 0,'#F72A49')
+square(-266, 264, 25, 0, '#FF7C00')
+parallelogram(-255, 267, 36, 25, 40, '#8ECC23')
+triangle(-270, 197, 50, 0, '#FEDD14')
+triangle(-318, 145, 40, 90, '#4FBAE8')
+triangle(-275, 175, 30, 270, '#A250E2')
+triangle(-300, 210, 30, 90, '#EF66E8')
+
+#fish
+
+
+turtle.hideturtle()
+turtle.mainloop()
