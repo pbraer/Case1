@@ -137,6 +137,7 @@ triangle(265, -50, 23, 0, '#A250E2')
 triangle(187, -65, 25, 0, '#EF66E8')
 
 # big square
+
 triangle(-150, -90, 150, 225, '#fede0c')
 triangle(-148, 127, 150, 135, '#f72647')
 triangle(65, 125, 75, 225, '#a34fe3')
@@ -146,6 +147,7 @@ triangle(-45, -95, 110, 90, '#4ebbe9')
 parallelogram(8, -38, 100, 80, 90, '#8fcd1e')
 
 # left man
+
 square(-290, 110, 25, 45, '#ff7d00')
 triangle(-240, 70, 60, 270, '#f72647')
 parallelogram(-303, 70, 42, 33, 45, '#8fcd1e')
@@ -155,6 +157,7 @@ triangle(-272, -60, 40, 225, '#4ebbe9')
 triangle(-275, -52, 20, 225, '#a34fe3')
 
 # yacht
+
 triangle(-285, -100, 20, 0, '#a34fe3')
 triangle(-285, -223, 70, 135, '#f72647')
 triangle(-350, -218, 60, 180, '#fede0c')
@@ -164,6 +167,7 @@ triangle(-297, -226, 42, 315, '#4ebbe9')
 parallelogram(-342, -226, 42, 41, 45, '#8fcd1e')
 
 # helicopter
+
 square(-150, -200, 32, 45, '#ff7d00')
 triangle(-110, -210, 25, 225, '#ef66e9')
 triangle(-55, -229, 25, 225, '#a34fe3')
@@ -173,6 +177,7 @@ triangle(-33, -165, 42, 45, '#4ebbe9')
 parallelogram(-22, -163, 50, 30, 90, '#8fcd1e')
 
 # rocket
+
 triangle(250, -115, 25, 315, '#ef66e9')
 triangle(250, -152, 33, 0, '#4ebbe9')
 triangle(215, -193, 50, 315, '#fede0c')
