@@ -3,7 +3,7 @@
 #               Kokorina D. (50%),
 #               Sidorov S. (0%)
 import turtle
-
+turtle.speed(10000)
 
 def square(x, y, side, angle, color):
     """
