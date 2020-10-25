@@ -1,6 +1,6 @@
 # Case-study #1
 # Developers:   Braer P. (60%),
-#               Kokorina D. (),
+#               Kokorina D. (50%),
 #               Sidorov S. (0%)
 import turtle
 
