@@ -39,7 +39,6 @@ def triangle(x, y, leg, angle, color):
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param leg: a leg Fof a triangle
-    :param hyp: a hypotenuse of a triangle
     :param angle: the angle of rotation of a triangle
     :param color: the color of a triangle
     :return: None
