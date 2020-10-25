@@ -118,13 +118,23 @@ triangle(3, 190, 45, 495, '#4FBAE8')
 
 #smth
 
-parallelogram(140, 248, 40, 35, 0, '#8ECC23')
+parallelogram(140, 246, 40, 35, 355, '#8ECC23')
 triangle(205, 252, 45, 135, '#4FBAE8')
 triangle(203, 187, 62, 180, '#F72A49')
 triangle(257, 208, 50, 0, '#FEDD14')
 square(255, 212, 25, 0, '#FF7C00')
 triangle(264, 241, 25, 135, '#EF66E8')
 triangle(241, 187, 22, 45, '#A250E2')
+
+#man
+
+square(225, 73, 25, 45, '#FF7C00')
+triangle(223, 10, 60, 180, '#F72A49')
+triangle(287, 70, 60, 0, '#FEDD14')
+triangle(227, 7, 30, 180, '#4FBAE8')
+parallelogram(201, -53, 35, 30, 40, '#8ECC23')
+triangle(265, -50, 23, 0, '#A250E2')
+triangle(187, -72, 25, 0, '#EF66E8')
 
 turtle.speed(15)
 turtle.mainloop()
